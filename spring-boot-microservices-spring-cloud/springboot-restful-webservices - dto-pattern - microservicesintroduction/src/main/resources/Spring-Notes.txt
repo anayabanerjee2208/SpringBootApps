@@ -1,0 +1,64 @@
+Common design patterns used in Microservices design: (Spring Cloud)
+
+Api Gateway Pattern: Spring Cloud Api Gateway
+
+Config Server Pattern  use git hub
+
+Circuit Breaker Pattern - Resilliance4j framework
+
+Service Registry and Discovery Pattern - using Spring Cloud Netflix Eureka server
+
+Distributes tracing Pattern - use spring cloud sleuth model or Zipkin
+
+Implementing Load Balancing and Centralized security in Api Gateway
+
+Ways to communicate from one microservices to another:
+RestTemplate
+WebClient
+Spring Cloud Ipen Feign library
+
+Microservice Applications and It's Port Mapping
+We will be creating a lot of microservices so please refer below ports mapping (microservice applications with their ports):
+
+For the API-Gateway application, use the 9191 port.
+
+For the Department-Service application, use the 8080 port and for its instance, use port 8082
+
+For the Employee-Service application, use the 8081 port.
+
+For the Config-Server application, use the 8888 port.
+
+For the Service-Registry application, use the 8761 port.
+
+For the Organization-Service application, use the 8083 port.
+
+For the React-Frontend application, use the 3000 port.
+
+Zipkin Server uses the default port 9411
+
+Here is the screenshot image for your reference. Download and use it on your machine.
+
+
+
+Spring Cloud provides tools for developers to quickly build some of the common patterns in distributed systems (e.g. configuration management, service discovery, circuit breakers, intelligent routing, micro-proxy, control bus, short lived microservices and contract testing). Coordination of distributed systems leads to boiler plate patterns, and using Spring Cloud developers can quickly stand up services and applications that implement those patterns. They will work well in any distributed environment, including the developer’s own laptop, bare metal data centres, and managed platforms such as Cloud Foundry.
+
+Features
+Spring Cloud focuses on providing good out of box experience for typical use cases and extensibility mechanism to cover others.
+
+Distributed/versioned configuration
+
+Service registration and discovery
+
+Routing
+
+Service-to-service calls
+
+Load balancing
+
+Circuit Breakers
+
+Distributed messaging
+
+Short lived microservices (tasks)
+
+Consumer-driven and producer-driven contract testing
